@@ -10,6 +10,7 @@
 
 		<!-- Isso nao é obrigatorio, mas uma boa pratica -->
 		<class>br.com.caelum.financas.modelo.Conta</class>
+		<class>br.com.caelum.financas.modelo.Movimentacao</class>
 
 		<properties>
 			<!-- Propriedades JDBC -->

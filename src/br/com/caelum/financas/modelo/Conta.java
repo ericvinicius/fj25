@@ -49,4 +49,13 @@ public class Conta {
 	public void setAgencia(String agencia) {
 		this.agencia = agencia;
 	}
+	
+	public Conta autoCreate(){
+		Conta conta = new Conta();
+		conta.setAgencia("0000-0");
+		conta.setBanco("Banco 666");
+		conta.setNumero("00.000-0");
+		conta.setTitular("Satan - AUTOCREATE");
+		return conta;
+	}
 }
