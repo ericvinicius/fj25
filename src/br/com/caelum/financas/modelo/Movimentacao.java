@@ -69,6 +69,7 @@ public class Movimentacao {
 	public void setTipo(EnumTipoMovimentacao tipo) {
 		this.tipo = tipo;
 	}
+	
 	public Movimentacao autoCreate() {
 		Movimentacao movimentacao = new Movimentacao();
 		movimentacao.setData(Calendar.getInstance());
